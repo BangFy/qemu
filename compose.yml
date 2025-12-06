@@ -3,10 +3,12 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "kali"
-      USERNAME: "MasR"
-      PASSWORD: "R12345"
+      BOOT: "arch"
+      BOOT_MODE: "lagacy"
+      RAM_SIZE: "16G"
+      CPU_CORES: "4"
       DISK_SIZE: "200G"
+      DISK_TYPE: "blk"
     devices:
       - /dev/kvm
       - /dev/net/tun
