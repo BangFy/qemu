@@ -3,8 +3,7 @@ services:
     image: BangFy/qemu
     container_name: qemu
     environment:
-      BOOT: "arch"
-      BOOT_MODE: "lagacy"
+      BOOT: "debian"
       RAM_SIZE: "16G"
       CPU_CORES: "4"
       DISK_SIZE: "200G"
