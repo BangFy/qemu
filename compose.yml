@@ -1,6 +1,6 @@
 services:
   qemu:
-    image: qemux/qemu
+    image: BangFy/qemu
     container_name: qemu
     environment:
       BOOT: "arch"
